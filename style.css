@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans+JP&family=Roboto&display=swap');
+
+/* font-family: 'Lobster', cursive;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Roboto', sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7rem;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    font-family: 'Lobster', cursive;
+    color: #2ecc71;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar ul li a:hover {
+    background-color: #2ecc71;
+}
+
+.header {
+    background: url(Img1.jpg);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header div {
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.head-text {
+    color: #2ecc71;
+    font-size: 4rem;
+    margin-bottom: 0.6rem;
+}
+
+.head-para {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.head-btn {
+    background-color: #2ecc71;
+    padding: 0.9rem;
+    border: none;
+    border-radius: 5px;
+    width: 7rem;
+}
+
+.head-btn a,
+.about-btn a,
+.contact-btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.head-btn:hover,
+.about-btn:hover,
+.contact-btn:hover {
+    background-color: #27ae60;
+}
+
+#services {
+    display: flex;
+    flex: 1;
+}
+
+.services-container {
+    margin: 10px auto;
+    width: 74rem;
+}
+
+.services-head {
+    text-align: center;
+}
+
+.services-para {
+    font-size: 1rem;
+    margin: 10px auto;
+}
+
+.services-cards {
+    text-align: center;
+    padding: 1.3rem;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.services-cards i {
+    background-color: #2ecc71;
+    border-radius: 4rem;
+    padding: 2rem;
+}
+
+#about {
+    background: url(Img2.jpg);
+    height: 70vh;
+    background-size: cover;
+}
+
+.about-section {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+}
+
+.about-head {
+    color: #2ecc71;
+    text-align: right;
+    padding: 8rem 6rem 0 45rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+}
+
+.about-para {
+    color: white;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    padding: 1rem 6rem 0 60rem;
+    font-size: 1rem;
+}
+
+.about-btn {
+    background-color: #2ecc71;
+    margin: 1rem 6rem 0 0;
+    float: right;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+}
+
+#img {
+    background: url(Img3.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+    width: 50rem;
+}
+
+.form {
+    text-align: right;
+    margin-left: 50rem;
+    margin-top: 9.5rem;
+}
+
+input {
+    height: 2.5rem;
+    width: 30rem;
+    border: 1px solid #2ecc71;
+    border-radius: 5px;
+}
+
+.contact-head {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    color: #2ecc71;
+    text-align: right;
+}
+
+label {
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact-btn {
+    background-color: #2ecc71;
+    padding: 0.7rem;
+    border: none;
+    margin-top: 1rem;
+    border-radius: 5px;
+    width: 5.6rem;
+    display: block;
+    margin-left: 13rem;
+}
+
+footer {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.1rem;
+    background-color: #2ecc71;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
